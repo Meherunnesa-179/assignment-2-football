@@ -151,3 +151,29 @@ nav{
    
 }
 /*-----photo gallery end----*/
+/*-------news section start-----*/
+.more-site-container{
+    background-color: blueviolet;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    padding: 50px;
+}
+.cupa-logo{
+    color:;
+}
+.cup-logo >img{
+    width:2%;
+    height:2%;
+}li a{
+    text-decoration: none;
+    color: white;
+
+}li a:hover{
+    color:black;
+    border:2px solid;
+    background-color: tomato;
+    border-radius: 10px;
+}
+/*--------news section end---------*/
