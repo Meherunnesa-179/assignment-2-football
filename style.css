@@ -27,7 +27,7 @@ header navigation menu style starts------*/
     color:#FFFFFF;
     text-decoration: none;
     border:2px;
-    background-color: rgb(218, 22, 113);
+    background-color: lightcoral;
     padding: 10px 30px;
 }
 nav{
@@ -109,3 +109,21 @@ nav{
     
 }
 /*----highlights style end----*/
+/*------photo gallery style start---*/
+.photo-container h1{
+    text-align: center;
+    padding:20px;
+    font-size: 50px;
+    color:red; 
+    text-shadow:2px 1px black; 
+}
+.copa-photo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.copa-photo img{
+    width:300px;
+    height: 200px;
+   
+}
+/*-----photo gallery end----*/
