@@ -1,0 +1,90 @@
+/*-----------------------
+header navigation menu style starts------*/
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header-section{
+    background-color:rgb(51,103,214);;
+    width:1350px;
+    height: 650px;
+}
+.container{
+    padding: 50px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 30px;
+}
+.login-icon{
+    padding: 0 10px;
+}
+.login-menu{
+    color:#FFFFFF;
+    text-decoration: none;
+    border:2px;
+    background-color: rgb(218, 22, 113);
+    padding: 10px 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 35px;
+}
+/*------navigation menu style end----*/
+.header-showcase{
+    width:100%;
+    height:130px;
+    display:flex;
+ 
+    padding: 30px;
+    
+}
+.live-link{
+    border:2px;
+    padding:10px 20px;
+    background-color: lightcoral;
+    text-decoration: none;
+}
+.header-tittle> h1{
+    width:500px;
+    height:200px;
+    font-size: 35px;
+    padding-left:70px;
+}
+.banner img{
+    width:500;
+    height:500px;
+   
+}
+/*-----header style section end----*/
+/*----main section start with article of players detail----*/
+.blog-container{
+    width:;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+.blog{
+    margin-left:100px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-row-gap:15px;
+    
+}
+.thumbnail img{
+    width:250px;
+    height:250px;
+}
+.thumbnail{
+    margin:15px;
+    border:5px;
+    padding:20px 40px;
+    box-shadow: 5px 0px 10px gray;
+    justify-content: center;
+}/* -----players related article end---*/
