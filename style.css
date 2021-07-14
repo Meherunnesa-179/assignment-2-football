@@ -20,6 +20,10 @@ header navigation menu style starts------*/
     color: #FFFFFF;
     padding: 30px;
 }
+.menu a:hover{
+    color:cyan;
+    font-size: 20px;
+}
 .login-icon{
     padding: 0 10px;
 }
@@ -41,8 +45,7 @@ nav{
     width:100%;
     height:130px;
     display:flex;
- 
-    padding: 30px;
+     padding: 30px;
     
 }
 .live-link{
@@ -50,18 +53,39 @@ nav{
     padding:10px 20px;
     background-color: lightcoral;
     text-decoration: none;
+    margin-left: 30px;
+}
+.live-link:hover{
+    background-color: deeppink;
+    font-size: 18px;
 }
 .header-tittle> h1{
-    width:500px;
-    height:200px;
-    font-size: 35px;
-    padding-left:70px;
+   
+    word-wrap: break-word;
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+    font-size: 50px;
+    color:white; 
+}
+.header-tittle p{
+    margin-left: 70px;
+    
 }
 .banner img{
     width:500;
     height:500px;
-   
+    position: relative;
+    animation:image 3s infinite;  
 }
+@keyframes image{
+    from{ left:0px;}
+    to{left:100px;}
+}
+#web-banner{
+    animation-timing-function: linera;
+}
+
 /*-----header style section end----*/
 /*----main section start with article of players detail----*/
 .blog-container{
@@ -84,7 +108,7 @@ nav{
 .thumbnail{
     margin:15px;
     border:5px;
-    padding:20px 30px;
+    padding:20px 30px 20px 45px;
     box-shadow: 5px 0px 10px gray;
     justify-content: center;
 }
