@@ -65,7 +65,7 @@ nav{
 /*-----header style section end----*/
 /*----main section start with article of players detail----*/
 .blog-container{
-    width:;
+
     align-items: center;
     justify-content: center;
     margin: 50px;
@@ -84,7 +84,28 @@ nav{
 .thumbnail{
     margin:15px;
     border:5px;
-    padding:20px 40px;
+    padding:20px 30px;
     box-shadow: 5px 0px 10px gray;
     justify-content: center;
-}/* -----players related article end---*/
+}
+/* -----players related article end---*/
+/*-------highlights style-------*/
+.highlights{
+    display:flex;
+    margin: 50px;
+}
+.newsfeed{
+    width:50%;
+    justify-content: center;
+    padding:20px 40px ;
+    margin-left: 30px;
+}
+.newsfeed p{
+    margin-bottom: 10px;
+}
+.highlight-thumbnail>img{
+    width:450px;
+    height:300px;
+    
+}
+/*----highlights style end----*/
